@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+  background-color: lightgray;
+}
+img {
+  float: left;
+}
+img.icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* LYDIA'S CSS ADDITIONS */
+
+.about {
+  margin: 10% 15% 10% 15%;
+  color: black;
+}
+footer {
+  margin-top: 10%;
+  background-color: #84A9C0;
+  color: black;
+  font-weight: 400;
+  padding: 2% 5% 2% 5%;
+}
+/* .navbar {
+  margin-bottom: 5%;
+  font-size: 20px;
+  background-color:#84A9C0;
+  padding: 3%;
+}
+span{
+  padding: 4%;
+} */
+
+/* .ubuntu {
+  margin-top: 43%;
+  margin-bottom: 0%;
+  font-size: 75px;
+  font-weight: 400;
+} */
+/* span a {
+  color: black;
+  font-weight: 350;
+}
+span a:hover {
+  color: white;
+} */
+.name {
+  display: flex;
+  justify-content: center;
+  /* background-image: url("https://dionisopunk.files.wordpress.com/2018/11/the-circle-game-o.jpg?w=580&h=580&crop=1"); */
+  /* padding: 10% 30% 15% 30%; */
+  background-repeat: no-repeat;
+  background-position-x: center;
+  color: black;
+  margin-top: 7%;
+}
+.logo {
+  font-weight: 400;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #84A9C0;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: lightgrey;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.heading {
+  display: inline;
+  font-size: 55px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+/* LM css for buttons */
+.home-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+}
+.logIn, .signUp {
+  height: 50px;
+  margin-top: 30%;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 13px;
+}
+.textbox{
+  margin-top: 2.5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 40%;
+  background:#ecf2f5;
+	margin-bottom: 2em;	
+}
+
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+  background-color: #84a9c0;
+  border: #84a9c0;
+}
+
+.eventForm {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+input[type='color'], input[type='date'], input[type='datetime'], input[type='datetime-local'], input[type='email'], input[type='month'], input[type='number'], input[type='password'], input[type='search'], input[type='tel'], input[type='text'], input[type='url'], input[type='week'], input:not([type]), textarea, select {
+  background-color: #ecf2f5;
+}
+
+.newUser, .userLogIn {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+}
